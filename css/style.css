@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    color: #fff;
+    text-shadow: 2px 2px 2px brown;
+    font-weight: 600;
+    font-size: 27.5px;
+    font-weight: 650px;
+}
+.navbar-brand img{
+    width: 157px;
+    height: 115px;
+}
+.carousel-item img{
+    max-width: 100%;
+    max-height: 520px;
+}
+.about{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9));
+    min-height: 130px;
+}
+.heading h1{
+    padding-top: 52px;
+}
+.about{
+    height: 900px;
+}
+.about .content{
+    margin: 5rem auto;
+}
+.about p{
+    font-size: 2rem;
+    margin-top: -790px;
+}
+button{
+    height: 4rem;
+    width: 14rem;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+button:hover{
+    background: chartreuse;
+    color: darkblue;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+}
+.image img{
+    position: absolute;
+    top: 5.5%;
+    left: 11%;
+    width: 323px;
+    height: 525px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px wheat;
+}
+h5{
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+.text-center{
+    color: cornsilk;
+    text-shadow: 5px 5px 5px black;
+}
+.gallery{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.9));
+    padding: 50px 0;
+}
+.text-center{
+    margin-bottom: 25px;
+}
+.gallery .card{
+    margin: 7% 8%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.card:hover{
+    transform: scale(1,1.1);
+}
+.card p{
+    margin-left: 227px;
+    margin-top: 6px;
+    font-style: italic;
+    font-size: 19px;
+    font-weight: 800;
+    color: black;
+}
+.gallery .card img{
+    width: 600px;
+    height: 550px;
+}
+.btn{
+    height: 48px;
+    width: 99.5px;
+    position: absolute;
+    left: 11.8%;
+    top: 260px;
+    background-color: blue;
+    color: cyan;
+    border: none;
+    border-radius: 7px;
+    margin-left: 27%;
+    opacity: 0.2;
+}
+.btn:hover{
+    background-color: darkblue;
+    color: white;
+    opacity: 1;
+    transition: .4s;
+}
+.card{
+    width: 600px;
+    height: 550px;
+}
+h1{
+    font-weight: 650;
+    font-size: 46px;
+}
+#popular{
+    background-color: honeydew;
+    padding: 55px 0;
+}
+.popular-title{
+    margin-bottom: 80px;
+}
+.card{
+    box-shadow: 0px 3px 60px -10px rgb(170, 106, 106);
+    border-color: gray;
+    border-radius: 7px;
+}
+.card-body{
+    padding: 6% 0;
+}
+@media only screen and (max-width:768px){
+    .card{
+        margin: 20px 0;
+    }
+}
+.contact{
+    min-height: 100%;
+    width: 100%;
+    background: url(../biriyani.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+form{
+    background: papayawhip;
+    opacity: 0.75;
+    padding-top: 2rem;
+    margin: 1rem 1rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 4px rgb(48, 47, 47);
+}
+.inputbox{
+    position: relative;
+    text-align: center;
+    opacity: 0.75;
+}
+input, textarea{
+    outline: none;
+    opacity: 0.75;
+    border: .2rem solid gray;
+    border-radius: .2rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    background: none;
+    height: 4rem;
+    width: 90%;
+    font-size: 1rem;
+}
+textarea{
+    padding: 1rem;
+    resize: none;
+    height: 14rem;
+    opacity: 0.75;
+}
+::placeholder{
+    top: 3rem;
+    left: 7%;
+    font-size: 25px;
+    opacity: 0.75;
+}
+.button{
+    height: 3rem;
+    width: 10rem;
+    margin-bottom: 1.5rem;
+    margin-left: 28%;
+    background: #282727;
+    color: #fff;
+    border-radius: 10px;
+    opacity: 1;
+}
+.button:hover{
+    background: black;
+    color: cyan;
+    opacity: 1;
+}
+.footer{
+    background: #282727;
+    padding: 1rem 7%;
+}
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .box-container .box{
+    flex: 1 1 14rem;
+    margin: 10px 25px;
+    padding: 10px;
+}
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 1.7rem 0;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+}
+.footer .box-container .box p{
+    font-size: 1.8rem;
+    color: #eee;
+    padding: .8rem 0;
+    font-family: 'Oswald', sans-serif;
+}
+.footer .box-container .box a{
+    font-size: 2.2rem;
+    color: #fff;
+    padding: .8rem 0.2rem;
+    display: block;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.footer .box-container .box a:hover{
+    color: rgb(176, 236, 238);
+    font-family: 'Oswald', sans-serif;
+}
+.footer .box-container .box p i{
+    padding-right: .7rem;
+    color: cornsilk;
+    cursor: pointer;
+}
